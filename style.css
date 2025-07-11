@@ -592,6 +592,7 @@ p {
 .voices {
     padding: 4rem 0;
     background: white;
+
 }
 
 .voices-tabs {
@@ -628,10 +629,15 @@ p {
 }
 
 .speakers-grid {
+    background: linear-gradient(135deg, #e91e63 0%, #ad1457 100%);
+    padding: 50px 40px;
+    margin: 0 0 0 150px;
+    border-radius: 50px 0 0 50px;
+    position: relative;
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-    margin-bottom: 3rem;
 }
 
 .speaker-card {
@@ -1220,6 +1226,7 @@ p {
   align-items: center;
   justify-content: center;
   padding: 60px 0;
+
 }
 
 .innovation-container {
